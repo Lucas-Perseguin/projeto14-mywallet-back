@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import usersRouter from './routes/user.routes.js';
 import statementsRouter from './routes/statement.routes.js';
+import cors from 'cors';
 
 //config
 dotenv.config();

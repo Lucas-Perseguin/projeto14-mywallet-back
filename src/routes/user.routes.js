@@ -11,6 +11,6 @@ const router = Router();
 
 router.post('/sign-up', userExists, postUserSignUp);
 
-router.post('/sign-in', userLoginValidation, postUserSignIn);
+router.post('/sign-in', postUserSignIn);
 
 export default router;
